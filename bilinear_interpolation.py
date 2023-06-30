@@ -40,8 +40,8 @@ def interpolate(img, new_height, new_width):
 
     return new_img
 if __name__ == "__main__":
-    img = cv2.imread("dog.png", 0)
+    img = cv2.imread("images/dog.png", 0)
     print(img.shape)
     new_img = interpolate(img, 1300, 1300)
     print(new_img.shape)
-    cv2.imwrite("resized.png", new_img)
+    cv2.imwrite("images/resized.png", new_img)
