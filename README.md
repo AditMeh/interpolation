@@ -20,7 +20,7 @@ You optimize $D$ to reduce the MSE between the reconstructed original image and 
 
 
 ### **Results**
-The following is using a gride size of shape $H//5, W//5$, where $H,W$ is the size of the image
+The following is using a grid size of shape $H//5, W//5$, where $H,W$ is the size of the image
 
 **Ground truth**: 
 
